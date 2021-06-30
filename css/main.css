@@ -1,0 +1,41 @@
+header {
+   background-color:#150947;
+   padding-left: 30px;
+   padding-top: 10px;
+
+}
+.navbar {
+
+   border-top: antiquewhite solid;
+   display: block;
+   text-align: center;
+   padding-left: 40%;
+   padding-top: 0;
+   text-decoration: none;
+   width: 160px;
+   background-color: #FCCBBD;
+   font-weight: bold;
+}
+.navbar-nav {
+   color: red;
+   padding:0 100px
+
+}
+.nav-item {
+   color: red;
+}
+.nav-link{
+   color:  #150947;
+   padding: 0 50px;
+}
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: aliceblue;
+color: white;
+text-align: center;
+padding: 10px;
+font-size: 0.5rem;
+}
