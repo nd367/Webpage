@@ -1,6 +1,5 @@
 header {
    background-color:#150947;
-   padding-left: 30px;
    padding-top: 10px;
 
 }
@@ -9,24 +8,40 @@ header {
    border-top: antiquewhite solid;
    display: block;
    text-align: center;
-   padding-left: 40%;
+   padding-left: 35%;
    padding-top: 0;
    text-decoration: none;
    width: 160px;
    background-color: #FCCBBD;
    font-weight: bold;
 }
+header input[type=text] {
+   float: bottom;
+   padding-left: 50%;
+   padding-top: 10px;
+   text-align: left;
+   border: none;
+   font-size: 17px;
+   width: 300px;
+}
+header input[placeholder=Search...] {
+   text-align: left;
+   font-size: 17px;
+
+header img {
+   float: left;
+   padding-left: 20px;
+   width: 250px
+}
 .navbar-nav {
-   color: red;
-   padding:0 100px
 
 }
 .nav-item {
-   color: red;
+   padding: 0 10%;
 }
 .nav-link{
    color:  #150947;
-   padding: 0 50px;
+   padding: 0px 50px;
 }
 .footer {
 position: fixed;
