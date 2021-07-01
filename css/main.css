@@ -9,7 +9,7 @@ header {
    border-top: antiquewhite solid;
    display: block;
    text-align: center;
-   padding-left: 35%;
+   padding-left: 0px;
    padding-top: 0;
    text-decoration: none;
    width: 160px;
@@ -18,45 +18,43 @@ header {
 }
 header input[type=text] {
    float: bottom;
-   padding-left: 50%;
+   padding-left: 0px;
    padding-top: 10px;
    text-align: left;
    border: none;
    font-size: 17px;
-   width: 300px;
+   width: 50%;
 }
-header input[placeholder=Search...] {
-   text-align: left;
-   font-size: 17px;
-
 header img {
-   float: left;
+   float: center;
    padding-left: 20px;
    width: 250px
 }
 .navbar-nav {
-   padding-top: 10px;
-   padding-bottom: 10px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 300px;
 
 }
 
 .nav-item {
-   color:  #150947;
+   color: #150947;
+   padding: 0 100px;
 
 }
 .nav-link{
    color:  #150947;
-   padding: 0 50%;
+   padding-left: 100px;
    width: 160px;
 }
 .footer {
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-background-color: aliceblue;
-color: white;
-text-align: center;
-padding: 10px;
-font-size: 0.5rem;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: aliceblue;
+   color: white;
+   text-align: center;
+   padding: 10px;
+   font-size: 0.5rem;
 }
