@@ -28,8 +28,8 @@ header input[type=text] {
 }
 header img {
    float: center;
-   padding-left: 20px;
-   width: 250px
+   padding-left: 0px;
+
 }
 .navbar-nav {
    padding-top: 5px;

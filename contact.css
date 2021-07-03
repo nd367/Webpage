@@ -1,3 +1,4 @@
+/* Nav bar */
 header {
     background-color:#150947;
     padding-top: 10px;
@@ -14,8 +15,7 @@ header {
     padding-bottom: 0;
     text-decoration: darkred;
     width: 160px;
-    background-color: #150947;
-    color: #150947;
+    background-color: #FCCBBD;
     font-weight: bold;
 }
 header input[type=text] {
@@ -27,29 +27,42 @@ header input[type=text] {
     font-size: 17px;
     width: 50%;
 }
-body img {
-    float: left;
-    padding-left: 20px;
-    width: 50px
-    height: 50px
+header img {
+    float: center;
+    padding-left: 0px;
+    image-resolution: normal;
+    image-rendering: high-quality;
+
 }
 .navbar-nav {
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 300px;
+    padding-left: 200px;
 
 }
 
 .nav-item {
     color: #150947;
-    padding: 0 100px;
+    padding: 0 90px;
 
 }
 .nav-link{
     color:  #150947;
-    padding-left: 100px;
+    padding-left: 90px;
     width: 160px;
 }
+/* Contact Form */
+body {
+    padding-bottom: 50px
+}
+.form-group {
+    padding-top: 10px;
+}
+.form-group input[type=message] {
+    padding-bottom: 200px;
+    padding-right: 500px;
+}
+/* Footer */
 .footer {
     position: fixed;
     left: 0;
