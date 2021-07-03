@@ -53,14 +53,38 @@ header img {
 }
 /* Contact Form */
 body {
+    background-image: url('images/allpink.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p img {
+ border: #FCCBBD solid;
+}
+h1 {
+    color: #150947;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+body {
     padding-bottom: 50px
 }
 .form-group {
     padding-top: 10px;
 }
-.form-group input[type=message] {
-    padding-bottom: 200px;
-    padding-right: 500px;
+.form-group input {
+    width: 800px;
+}
+input[type=checkbox] {
+    width: 10px;
+    float: right;
+}
+.container {
+    width: 45%;
+    padding-top: 10px;
 }
 /* Footer */
 .footer {
@@ -73,4 +97,3 @@ body {
     text-align: center;
     padding: 10px;
     font-size: 0.5rem;
-
