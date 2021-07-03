@@ -50,13 +50,13 @@ header img {
 }
 .footer {
    position: fixed;
+   font-size: 15px;
    left: 0;
    bottom: 0;
    width: 100%;
    background-color: aliceblue;
    color: white;
    text-align: center;
-   padding: 10px;
-   font-size: 0.5rem;
-
+   padding-bottom: 10px;
+   padding-left: 41.5%;
 }
